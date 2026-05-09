@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/AI采购寻源/',
+  base: '/AI-',
   server: {
     proxy: {
       '/api/ai': {
